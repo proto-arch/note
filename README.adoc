@@ -8,5 +8,5 @@ image::/{docdir}/assets/images/sunset.jpg[caption="Figure 1: ", title="A mountai
 
 include::/{docdir}/posts/dir/2.adoc[]
 
-test
+test1
 
