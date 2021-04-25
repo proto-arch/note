@@ -6,7 +6,7 @@ Some content here
 [[img-sunset]]
 image::sunset.jpg[caption="Figure 1: ", title="A mountain sunset", alt="Sunset", width="300", height="200", link="http://www.flickr.com/photos/javh/5448336655"]
 
-include::/{docdir}/dir/2.adoc[]
+include::/{docdir}/posts/dir/2.adoc[]
 
 test
 
