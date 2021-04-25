@@ -1,0 +1,24 @@
+|===
+| Header Cell 1 | Header Cell 2
+
+| Row 1 Cell 1
+| Row 1 Cell 2
+
+| Row 2 Cell 1
+| Row 2 Cell 2
+|===
+
+- [x] An Item
+
+[source,ruby]
+----
+require 'sinatra' // <1>
+
+get '/hi' do // <2>
+  "Hello World!" // <3>
+end
+----
+<1> Library import
+<2> URL mapping
+<3> Content for response
+
