@@ -20,6 +20,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Install plantuml
+        run: sudo apt-get install -y plantuml
+
+      - name: Install gnuplot
+        run: sudo apt-get install -y gnuplot
+
       - name: asciidoctor-ghpages
         uses: manoelcampos/asciidoctor-ghpages-action@v2
         with:
