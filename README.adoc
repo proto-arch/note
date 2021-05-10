@@ -72,3 +72,5 @@ set view ,,0.7,1.4	# crunch xyz, and re-extend z back to full size
 set ztics autofreq
 splot cos(v)**3*cos(u)**3,sin(v)**3*cos(u)**3,sin(u)**3
 ....
+
+stem:[int_0^1 f(x)dx]
